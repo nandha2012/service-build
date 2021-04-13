@@ -1,0 +1,187 @@
+.widget-pcolor-1
+{
+    background: transparent linear-gradient(120deg, #E97851 0%, #CC3300 100%) 0% 0% no-repeat padding-box;
+}
+
+.widget-pcolor-2
+{
+    background: transparent linear-gradient(120deg, #DE346D 0%, #9F0E3E 100%) 0% 0% no-repeat padding-box;
+}
+
+.widget-pcolor-3
+{
+   background: #0DCE9E 0% 0% no-repeat padding-box;
+}
+
+.widget-pcolor-4
+{
+    background: transparent linear-gradient(118deg, #D967FF 0%, #9C08CD 100%) 0% 0% no-repeat padding-box;
+}
+
+.widget-pcolor-5
+{
+   background: transparent linear-gradient(119deg, #75EF9E 0%, #40CF70 100%) 0% 0% no-repeat padding-box;
+}
+
+.widget-pcolor-6
+{
+    background: transparent linear-gradient(120deg, #24D3A8 0%, #808080 100%) 0% 0% no-repeat padding-box;
+}
+
+.widget-pcolor-7
+{
+   background: transparent linear-gradient(119deg, #A345EB 0%, #54366C 100%) 0% 0% no-repeat padding-box;
+}
+
+.widget-pcolor-8
+{
+    background: transparent linear-gradient(120deg, #9AF3F3 0%, #41D9D9 100%) 0% 0% no-repeat padding-box;
+}
+
+.widget-pcolor-9
+{
+ background: transparent linear-gradient(120deg, #FFCD82 0%, #FDA015 100%) 0% 0% no-repeat padding-box;
+}
+
+.circle-p-w1
+{
+    background: transparent linear-gradient(180deg, #E8754E 0%, #E8754E 100%) 0% 0% no-repeat padding-box !important;
+    height:78px !important;
+    width:78px !important;
+}
+
+.circle-p-w2
+{
+   background: #DC336C 0% 0% no-repeat padding-box !important;
+    height:78px !important;
+    width:78px !important;
+}
+.circle-p-w3
+{
+    background: #3AF5C7 0% 0% no-repeat padding-box !important;
+    height:78px !important;
+    width:78px !important;
+}
+
+.circle-p-w4
+{
+   background: #DF82FF 0% 0% no-repeat padding-box !important;
+    height:78px !important;
+    width:78px !important;
+}
+
+
+.circle-p-w5
+{
+    background: #7DF9A6 0% 0% no-repeat padding-box !important;
+    height:78px !important;
+    width:78px !important;
+}
+
+.circle-p-w6
+{
+  background: #26D1A7 0% 0% no-repeat padding-box !important;
+    height:78px !important;
+    width:78px !important;
+}
+.circle-p-w7
+{
+    background: #C889F8 0% 0% no-repeat padding-box !important;
+    height:78px !important;
+    width:78px !important;
+}
+
+.circle-p-w8
+{
+  background: #7DFFFF 0% 0% no-repeat padding-box !important;
+    height:78px !important;
+    width:78px !important;
+}
+
+.circle-p-w9
+{
+  background: #FFCC80 0% 0% no-repeat padding-box !important;
+    height:78px !important;
+    width:78px !important;
+}
+.provider-selectbox
+{
+    background-color: #F1F1F1 !important;
+    text-align: left;
+    font: normal normal normal 14px/18px 'Montserrat-Regular';
+    letter-spacing: 0px;
+    color: #000000;
+}
+.m-25{
+        margin-bottom: 25px !important;
+}
+.w-150
+{
+    width: 150px !important;
+}
+.provider-register-banner
+{
+    background: url(../img/provider/provider-registerbg.png) no-repeat;
+    width: 100%;
+    position: relative;
+    background-position: bottom;
+    
+}
+.provider-register-banner::before
+{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(0 0 0 / 60%);
+}
+.provider-register-banner .register-header-area
+{
+    z-index: 1;
+    position: relative;
+}
+.provider-register-banner .register-mainwrap.form-form{
+       z-index: 1;
+    position: relative; 
+}
+body.provider-login-wrap
+{
+    background: url(../img/provider/provider-loginbg.png) no-repeat;
+    background-size: cover !important;
+    background-position-y: 80px !important;
+}
+
+.w-60{
+        width: 70%;
+    margin: 0 auto;
+}
+
+.provider-login-wrap .login-form-area input{
+    background: #E8E8E8 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+}
+
+.provider-login-wrap .login-form-area h2{
+    font: normal normal 600 20px/24px 'Montserrat-Regular';
+letter-spacing: 0px;
+color: #000000;
+}
+
+.provider-login-wrap .login-form-area
+{
+        background: #FFFFFF 0% 0% no-repeat padding-box !important;
+}
+.mt-7
+{
+    margin-top: 70px;
+}
+.provider-login-wrap .login-form-area .login-btn
+{
+        width: 340px !important;
+}
+.provider-login-wrap .login-form-area .form-control, .provider-login-wrap .login-form-area .form-control:focus, .provider-login-wrap .login-form-area .form-control:active, .provider-login-wrap .login-form-area .form-control.focus
+{
+    border: 1px solid #707070;
+}

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Our Genie :: Payment Screen</title>
+    <meta content="" name="descriptison">
+    <meta content="" name="keywords">
+    <!-- Favicons -->
+    <link href="front-end/assets/img/favico.png" rel="icon">
+    <link href="front-end/assets/img/app-touchicon.png" rel="apple-touch-icon">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link href="front-end/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="front-end/assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="front-end/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="front-end/assets/vendor/venobox/venobox.css" rel="stylesheet">
+    <link href="front-end/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="front-end/assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="front-end/assets/vendor/aos/aos.css" rel="stylesheet">
+    <!-- Template Main CSS File -->
+    <link href="front-end/assets/css/theme-checkbox-radio.css" rel="stylesheet"> 
+<link href="front-end/assets/css/style.css" rel="stylesheet"> 
+    </head>
+
+<body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top d-flex align-items-center header-transparent inner-header">
+        <div class="container d-flex align-items-center">
+            <div class="logo mr-auto">
+                <a href="index.html"><img src="front-end/assets/img/logo.png" alt="" class="img-fluid"></a>
+            </div>
+            <nav class="nav-menu d-none d-lg-block">
+                <ul>
+                    <!--          <li class="active"><a href="index.html">Home</a></li>-->
+                    <li><a href="#about">About us</a></li>
+                    <!--          <li><a href="#gallery">Gallery</a></li>-->
+                    <!--          <li><a href="#team">Team</a></li>-->
+                    <li class="drop-down"><a href="">Services</a>
+                        <ul>
+                            <li><a href="#">Services 1</a></li>
+                            <li><a href="#">Services 2</a></li>
+                            <li><a href="#">Services 3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Sign in / Sign up</a></li>
+                </ul>
+            </nav>
+            <!-- .nav-menu -->
+        </div>
+    </header>
+    <!-- End Header -->
+    <!-- ======= Hero Section ======= -->
+    <section class="service-category-banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-11 pt-5 pt-lg-0 mr-auto ml-auto text-center">
+                    <div data-aos="zoom-out">
+                        <h1 class="text-center">A nice section heading goes here</h1>
+                        <p class="mb-3 text-white">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Hero -->
+    <main id="main">
+        <!-- ======= START Booking Section ======= -->
+        <section class="booking-form-sec payment-screen">
+            <div class="container">
+                <div class="col-lg-12 col-12 layout-spacing">
+                    <div class="statbox widget box box-shadow">
+                        <div class="widget-content widget-content-area booking-form">
+                            <div class="widget-header">
+                                <div class="row">
+                                    <div class="col-xl-12 col-md-12 col-sm-12 col-12">
+                                        <h4 class="text-center payment-heading">PAY YOUR SERVICE</h4> </div>
+                                </div>
+                            </div>
+                            <div class="row pay-screen-wrap pt-4 m-0">
+                                <div class="col-md-8">
+                                    <h4 class="side-heading pb-4">Added items</h4>
+                                    <div class="serivce-item">
+                                        <div class="mb-4">
+                                            <div class="pull-left">
+                                                <h6 class="heading">Fan insatall</h6> </div>
+                                            <div class="pull-right">
+                                                <div class="addto-cart-btn">
+                                                    <div class="form-group">
+                                                        <div class="input-group add-qty-wrap">
+                                                            <div class="input-group-btn">
+                                                                <button id="down" class="btn btn-default" onclick=" down('0')"><i class="fa fa-minus" aria-hidden="true"></i></button>
+                                                            </div>
+                                                            <input type="text" id="myNumber" class="form-control input-number qty-input" value="1" />
+                                                            <div class="input-group-btn">
+                                                                <button id="up" class="btn btn-default" onclick="up('10')"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </div>
+                                        <div class="service-product">
+                                            <!-- User Avatar -->
+                                            <div class="service-img"> <img alt="Our Genie" class="fluid-img" src="front-end/assets/img/sub-categoryimg1.png"> </div>
+                                            <!-- Comment Text -->
+                                            <div class="service-text">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                                <div><span class="service-price"><i class="fa fa-inr" aria-hidden="true"></i> 800</span></div>
+                                            </div>
+                                            <!-- Comment Text -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <h4 class="side-heading pb-4">Added items</h4>
+                                    <div class="cart-pricepanel pt-4">
+                                        <div class="panel panel-default">
+                                            <div class="panel-body">
+                                                <table class="table cart-new-table">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>Item total</td>
+                                                            <td class="price text-right pr-5"><i class="fa fa-inr" aria-hidden="true"></i> 800</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Tax</td>
+                                                            <td class="text-right pr-5"> <i class="fa fa-inr" aria-hidden="true"></i> 100 </td>
+                                                        </tr>
+                                                        <tr class="grandtotal-border">
+                                                            <th>Total</th>
+                                                            <th class="total text-right  pr-5"><i class="fa fa-inr" aria-hidden="true"></i> <span class="gtval"> 900</span>
+                                                            </th>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="promo-area text-center bg-white">
+                            <h5 class="promocode-heading text-center pt-4 pb-4"><img src="front-end/assets/img/offer.svg" class="img-fluid pr-3"> Offers and Promocode </h5>
+                            </div>
+                             <div class="text-center mt-4 mb-4">
+                                 <a  href="booking-form.html" class="btn btn-primary submit-btn">PAY RS 900</a> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Booking Section -->
+    </main>
+    <!-- End #main -->
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-logo"> <img src="front-end/assets/img/logo.png"> </div>
+                        <!--                        <p class="pb-3">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos etLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et</p>-->
+                    </div>
+                    <div class="col-lg-2 col-md-6 footer-links pl-50">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Service</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Contact info</h4>
+                        <ul class="contact-list">
+                            <li><img src="front-end/assets/img/contacticon1.svg"><span>
+                                    52, 3rd main Arekere, Bannerghatta Road Bangalore 560076</span></li>
+                            <!--
+                            <li><img src="front-end/assets/img/contacticon2.svg"><span>
+                                    +91 9876543210</span></li>
+-->
+                            <li><img src="front-end/assets/img/contacticon3.svg"><a href="mailto:info@ourgenieapp.com"><span>info@ourgenieapp.com</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-6 footer-newsletter">
+                        <h4>Subscribe to our newsletter</h4>
+                        <form action="" method="post">
+                            <input type="email" name="email" placeholder="Email Address">
+                            <input type="submit" value="SEND"> </form>
+                        <div class="social-links mt-3 mb-4"> <a href="https://www.instagram.com/ourgenie?r=nametag" class="instagram"><i class="bx bxl-instagram"></i></a> <a href="https://www.facebook.com/ourgenieapp/" class="facebook"><i class="bx bxl-facebook"></i></a> <a href="https://www.linkedin.com/company/ourgenie" class="linkedin"><i class="bx bxl-linkedin"></i></a> </div>
+                        <div class="downapp-group mb-3">
+                            <a href="#"><img src="front-end/assets/img/downapp-1.svg"></a>
+                            <a href="#"><img src="front-end/assets/img/downapp-2.svg"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="copyright">
+                    <ul>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy policy</a></li>
+                        <li><a href="#">@2020 Our Gine company</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer --><a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+    <div id="preloader"></div>
+    <!-- Vendor JS Files -->
+    <script src="front-end/assets/vendor/jquery/jquery.min.js"></script>
+    <script src="front-end/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="front-end/assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="front-end/assets/vendor/php-email-form/validate.js"></script>
+    <script src="front-end/assets/vendor/venobox/venobox.min.js"></script>
+    <script src="front-end/assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+    <script src="front-end/assets/vendor/counterup/counterup.min.js"></script>
+    <script src="front-end/assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="front-end/assets/vendor/aos/aos.js"></script>
+    <!-- Template Main JS File -->
+    <script src="front-end/assets/js/main.js"></script>
+</body>
+
+</html>
